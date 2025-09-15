@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../templates/Navbar";
-const About = () => {
+
+const Lacak = () => {
   return (
     <>
       <Navbar />
@@ -9,4 +10,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Lacak;
