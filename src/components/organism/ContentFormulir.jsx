@@ -14,8 +14,8 @@ const ContentFormulir = () => {
           <div className="flex flex-col gap-5 justify-center items-center w-[300px] md:w-[600px] md:py-10 md:px-7 h-max rounded bg-white shadow-lg p-5 mb-20">
             <HeaderFormFormulir />
             <FormFormulir />
+            <ButtonFormFormulir />
           </div>
-          <ButtonFormFormulir />
         </div>
       </div>
     </>
