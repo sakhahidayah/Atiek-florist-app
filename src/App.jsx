@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Formulir from "./components/pages/Formulir";
 import Catalog from "./components/pages/Catalog";
 import Lacak from "./components/pages/Lacak";
+import NotFound from "./components/pages/NotFound";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/formulir" element={<Formulir />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/lacak" element={<Lacak />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

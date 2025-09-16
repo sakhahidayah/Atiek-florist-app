@@ -17,24 +17,24 @@ const Navbar = () => {
           </svg>
         </button>
         <div className={`${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"} md:opacity-100 md:max-h-screen overflow-hidden transition-all duration-700 ease-in-out w-full md:block md:w-auto`}>
-          <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white bg-[#C7A700]">
+          <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white border-[#C7A700]">
             <li>
-              <a href="/home" className="block py-2 px-3  hover:text-white font-semibold text-lg md:hover:text-[#C7A700]">
+              <a href="/home" className="block py-2 px-3  font-semibold text-lg hover:text-[#C7A700]">
                 Home
               </a>
             </li>
             <li>
-              <a href="/catalog" className="block py-2 px-3  hover:text-white font-semibold text-lg md:hover:text-[#C7A700]">
+              <a href="/catalog" className="block py-2 px-3  font-semibold text-lg hover:text-[#C7A700]">
                 Katalog
               </a>
             </li>
             <li>
-              <a href="/formulir" className="block py-2 px-3  hover:text-white font-semibold text-lg md:hover:text-[#C7A700]">
+              <a href="/formulir" className="block py-2 px-3  font-semibold text-lg hover:text-[#C7A700]">
                 Formulir
               </a>
             </li>
             <li>
-              <a href="/lacak" className="block py-2 px-3  hover:text-white font-semibold text-lg md:hover:text-[#C7A700]">
+              <a href="/lacak" className="block py-2 px-3  font-semibold text-lg hover:text-[#C7A700]">
                 Lacak
               </a>
             </li>
